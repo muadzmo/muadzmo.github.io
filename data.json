@@ -1,0 +1,39 @@
+{
+    "s":200,
+    "d":[
+        {
+            "name":"M. Muadz",
+            "employeeid":"12345",
+            "divdept":"IMP-AT",
+            "dateresign":"20210119",
+            "lastday":"2021020",
+            "interview":[
+                {
+                    "description":"Submission of Resignation Letter",
+                    "desclist":[],
+                    "date":"{{now()}}",
+                    "initial":"HR-Angel",
+                    "remarks":"HR: Keep in personal file",
+                    "remarkslist":[]
+                },
+                {
+                    "description":"Hand over / retrieve of all",
+                    "desclist": [
+                        "Documents",
+                        "Equipment Tools",
+                        "Proprietary Information",
+                        "Pending Activities",
+                        "Key of"
+                    ],
+                    "date":"{{now()}}",
+                    "initial":"Superior",
+                    "remarks":"Direct SPV:",
+                    "remarkslist":[
+                        "To Confirm received in proper & usable condition",
+                        "To remind employee of obligation to maintain confidentally of H3i information"
+                    ]
+                }
+            ]
+        }
+    ]
+}
