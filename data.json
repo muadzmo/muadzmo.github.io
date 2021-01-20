@@ -23,7 +23,7 @@
                     "description":[
                         {
                             "desc_list":"Hand over / retrieve of all <br> -Documents <br> -Equipment Tools <br> -Proprietary Information <br> -Pending Activities <br> -Key of",
-                            "feedback":"N"
+                            "feedback":"Y"
                         }
                     ],
                     "date":"{{now()}}",
