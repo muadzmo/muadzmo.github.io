@@ -1,39 +1,64 @@
 {
-    "s":200,
-    "d":[
+    "status":200,
+    "data":[
         {
-            "name":"M. Muadz",
-            "employeeid":"12345",
-            "divdept":"IMP-AT",
-            "dateresign":"20210119",
-            "lastday":"2021020",
+            "name_emp":"M. Muadz",
+            "employee_id":"12345",
+            "div_dept":"IMP-AT",
+            "date_resign":"20210119",
+            "last_day":"2021020",
             "interview":[
                 {
-                    "description":"Submission of Resignation Letter",
-                    "desclist":[],
+                    "description":[
+                        {
+                            "desc_list":"Submission of Resignation Letter",
+                            "feedback":"N"
+                        }
+                    ],
                     "date":"{{now()}}",
                     "initial":"HR-Angel",
-                    "remarks":"HR: Keep in personal file",
-                    "remarkslist":[],
-                    "feedback": "N"
+                    "remarks":"HR: Keep in personal file"
                 },
                 {
-                    "description":"Hand over / retrieve of all",
-                    "desclist": [
-                        "Documents",
-                        "Equipment Tools",
-                        "Proprietary Information",
-                        "Pending Activities",
-                        "Key of"
+                    "description":[
+                        {
+                            "desc_list":"Hand over / retrieve of all\\n -Documents\\n -Equipment Tools\\n -Proprietary Information\\n -Pending Activities\\n -Key of",
+                            "feedback":"N"
+                        }
                     ],
                     "date":"{{now()}}",
                     "initial":"Superior",
-                    "remarks":"Direct SPV:",
-                    "remarkslist":[
-                        "To Confirm received in proper & usable condition",
-                        "To remind employee of obligation to maintain confidentally of H3i information"
+                    "remarks":"Direct SPV:\\n -To Confirm received in proper & usable condition\\n -To remind employee of obligation to maintain confidentally of H3i information"
+                },
+                {
+                    "description":[
+                        {
+                            "desc_list": "Settlement of financial responsibility:\\n- Cash advance amount of:",
+                            "feedback": "Y"
+                        },
+                        {
+                            "desc_list":"Salary deduction of:",
+                            "feedback":"Y"
+                        },
+                        {
+                            "desc_list":"Any other payment due to Employee (Please write down detail & amount):",
+                            "feedback":"Y"
+                        },
+                        {
+                            "desc_list":"Hand over / retrieve of:\\nTool of Trade:",
+                            "feedback":"Y"
+                        },
+                        {
+                            "desc_list":"Other:",
+                            "feedback":"Y"
+                        }
                     ],
-                    "feedback": "Y"
+                    "date":"{{now()}}",
+                    "initial": [
+                        "Kho Tek Wie",
+                        "Gazali Madjid"
+                    ],
+                    "remarks":"Finance/Treasury/Regional Finance:\\n -To confirm settlement amount & closing detail,\\n -To confirm received Company’s financial-related facility in proper & usable condition and conduct necessary cancellation.\\n\\n Logistic:\\n -To confirm received Tool-of-Trade facility in proper & usable condition"
                 }
             ]
         }
