@@ -28,7 +28,7 @@
                     ],
                     "date":"{{now()}}",
                     "initial":"Superior",
-                    "remarks":"Direct SPV:<br> -To Confirm received in proper & usable condition <br> -To remind employee of obligation to maintain confidentally of H3i information"
+                    "remarks":"<strong>Direct SPV:</strong><br> -To Confirm received in proper & usable condition <br> -To remind employee of obligation to maintain confidentally of H3i information"
                 },
                 {
                     "description":[
