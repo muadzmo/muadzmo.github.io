@@ -14,7 +14,8 @@
                     "date":"{{now()}}",
                     "initial":"HR-Angel",
                     "remarks":"HR: Keep in personal file",
-                    "remarkslist":[]
+                    "remarkslist":[],
+                    "feedback": "N"
                 },
                 {
                     "description":"Hand over / retrieve of all",
@@ -31,7 +32,8 @@
                     "remarkslist":[
                         "To Confirm received in proper & usable condition",
                         "To remind employee of obligation to maintain confidentally of H3i information"
-                    ]
+                    ],
+                    "feedback": "Y"
                 }
             ]
         }
