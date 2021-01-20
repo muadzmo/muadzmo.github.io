@@ -22,18 +22,18 @@
                 {
                     "description":[
                         {
-                            "desc_list":"Hand over / retrieve of all \\n -Documents \\n -Equipment Tools \\n -Proprietary Information \\n -Pending Activities \\n -Key of",
+                            "desc_list":"Hand over / retrieve of all <br> -Documents <br> -Equipment Tools <br> -Proprietary Information <br> -Pending Activities <br> -Key of",
                             "feedback":"N"
                         }
                     ],
                     "date":"{{now()}}",
                     "initial":"Superior",
-                    "remarks":"Direct SPV: \\n -To Confirm received in proper & usable condition \\n -To remind employee of obligation to maintain confidentally of H3i information"
+                    "remarks":"Direct SPV:<br> -To Confirm received in proper & usable condition <br> -To remind employee of obligation to maintain confidentally of H3i information"
                 },
                 {
                     "description":[
                         {
-                            "desc_list": "Settlement of financial responsibility: \\n- Cash advance amount of:",
+                            "desc_list": "Settlement of financial responsibility:<br>- Cash advance amount of:",
                             "feedback": "Y"
                         },
                         {
@@ -45,7 +45,7 @@
                             "feedback":"Y"
                         },
                         {
-                            "desc_list":"Hand over / retrieve of: \\nTool of Trade:",
+                            "desc_list":"Hand over / retrieve of:<br>Tool of Trade:",
                             "feedback":"Y"
                         },
                         {
@@ -58,7 +58,7 @@
                         "Kho Tek Wie",
                         "Gazali Madjid"
                     ],
-                    "remarks":"Finance/Treasury/Regional Finance: \\n -To confirm settlement amount & closing detail, \\n -To confirm received Company’s financial-related facility in proper & usable condition and conduct necessary cancellation. \\n\\n Logistic: \\n -To confirm received Tool-of-Trade facility in proper & usable condition"
+                    "remarks":"Finance/Treasury/Regional Finance:<br> -To confirm settlement amount & closing detail,<br> -To confirm received Company’s financial-related facility in proper & usable condition and conduct necessary cancellation.<br><br> Logistic:<br> -To confirm received Tool-of-Trade facility in proper & usable condition"
                 }
             ]
         }
