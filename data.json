@@ -3,8 +3,10 @@
     "data":[
         {
             "name_emp":"M. Muadz",
-            "employee_id":"12345",
+            "emp_no":"12345",
+            "emp_id":"DO123",
             "div_dept":"IMP-AT",
+            "pos_id":"67890",
             "date_resign":"20210119",
             "last_day":"2021020",
             "interview":[
@@ -16,7 +18,13 @@
                         }
                     ],
                     "date":"{{now()}}",
-                    "initial":"HR-Angel",
+                    "initial":[
+                        {
+                            "name":"Angel",
+                            "emp_id":"DO124",
+                            "pos_id":"12346"
+                        }
+                    ],
                     "remarks":"HR: Keep in personal file"
                 },
                 {
@@ -27,7 +35,13 @@
                         }
                     ],
                     "date":"{{now()}}",
-                    "initial":"Superior",
+                    "initial":[
+                        {
+                            "name":"Marctinius",
+                            "emp_id":"DO125",
+                            "pos_id":"12347"
+                        }
+                    ],
                     "remarks":"<strong>Direct SPV:</strong><br> -To Confirm received in proper & usable condition <br> -To remind employee of obligation to maintain confidentally of H3i information"
                 },
                 {
@@ -55,8 +69,16 @@
                     ],
                     "date":"{{now()}}",
                     "initial": [
-                        "Kho Tek Wie",
-                        "Gazali Madjid"
+                        {
+                            "name":"Kho Tek Wie",
+                            "emp_id":"DO126",
+                            "pos_id":"12348"
+                        },
+                        {
+                            "name":"Gazali Madjid",
+                            "emp_id":"DO127",
+                            "pos_id":"12349"
+                        }
                     ],
                     "remarks":"<strong>Finance/Treasury/Regional Finance:</strong><br> -To confirm settlement amount & closing detail,<br> -To confirm received Company’s financial-related facility in proper & usable condition and conduct necessary cancellation.<br><br> <strong>Logistic:</strong><br> -To confirm received Tool-of-Trade facility in proper & usable condition"
                 }
